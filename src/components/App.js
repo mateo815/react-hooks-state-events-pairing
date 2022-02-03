@@ -1,9 +1,12 @@
-import video from "../data/video.js";
+import React from 'react'
+import video from "../data/video.js"
+import Film from "./Film";
 
 function App() {
   console.log("Here's your data:", video);
 
   return (
+    <Film />
     <div className="App">
       <iframe
         width="919"

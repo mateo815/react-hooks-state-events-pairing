@@ -15,6 +15,8 @@ function Buttons() {
     return <div>
         <button onClick={handleLikes}>{likes} 👍</button>
         <button onClick={handleDislikes}>{dislikes} 👎</button>
+        <div><button>Hide Comments</button></div>
+
     </div>;
 }
 
